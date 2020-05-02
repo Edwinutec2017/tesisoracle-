@@ -1,4 +1,4 @@
-Script de Tesis
+-Script de Tesis
 
 	Presentacion de la Diapositiva
 	Base de datos ORACLE: Explicar tablas principales (Pedidos, Detalle Pedido)
@@ -41,12 +41,40 @@ Comprobacion de estado de SERVICIOS
 	
 	
 	Preguntas
-	Que es MVC?
-	Que es RESTFUL?
-	Diferencia entre RESTFUL y SOAP?
-	Ventajas de RESTFUL
-	Definir INTEROPERABILIDAD
+	Que es MVC? Es un modelo basado en 3 capas que son MODELO (Datos), VISTA (Diseño de Interfaz), CONTROLADOR (Intermediario entre la VISTA y el MODELO)
+	
+	RESTFUL: Implementacion de REST
+	REST: Arquitectura basada en HTTP representada a travez de estados.
+	
+	Que es RESTFUL? Transferencia de datos representacional
+	Que es SOAP? Protocolo de acceso a objetos simples
+
+
+	Diferencia entre RESTFUL y SOAP? RESTFUL Realiza intercambio de informacion por medio de JSON y SOAP lo hace a travez de XML por medio 
+	de protocolo TCP/IP y SOAP posee mayor seguridad pero ambos son UNIVERSALES. REST Funciona con los verbos HTTP (GET,PUT,POST)
+	
+	Ventajas de RESTFUL: 
+	1-Mayor Velocidad de Intercambio de los datos
+	2-Sencillo de construir y adaptar
+	3-Escaso consumo de recursos
+
+	Caracteristicas SOAP
+	1-Comunicacion ORIGEN-DESTINO segura
+	2-TIPADO FUERTE XML
+
+	ESTADOS: 
+	200 - Hubo RESPUESTA.
+	400 - No procesa por datos incorrectos por el cliente, no encuentra el servidor BAD REQUEST.
+ 	404 - No pudo encontrar el servicio solicitado NOT FOUND.
+	500 - Error interno del servidor. 
+
+	Definir INTEROPERABILIDAD: Intercambio de DATOS entre dos o mas aplicaciones por medio de SERVICIOS(REST).
+	
 	Que es BACK-END, FRONT-END Y MIDDLE TIER?
+	BACK-END: Capa logica del NEGOCIO donde estan los procesos
+	FRONT-END: Es la capa de presentacion de los datos.
+	MIDDLE-TIER: Es la capa donde estan los servicios y permiten la intercomunicacion entre BACK-END y FRONT-END.
+	
 		
 	
 	
