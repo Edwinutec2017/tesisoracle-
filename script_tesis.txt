@@ -1,0 +1,55 @@
+Script de Tesis
+
+	Presentacion de la Diapositiva
+	Base de datos ORACLE: Explicar tablas principales (Pedidos, Detalle Pedido)
+	
+Back End
+	
+	Tablas	
+	Procedimientos
+	Vistas 
+	Secuencias
+	Triggers
+
+	Aplicacion administrador APEX	
+
+Middle Tier
+
+	Servicios: Alojados en APEX con ORDS
+			
+Front End
+	Inicia por IIS por medio de APP .NET 
+	
+Comprobacion de estado de SERVICIOS
+	Loguear con SERVICIOS RESTFUL LEVANTADOS
+	Demostracion despues de INICIAR SESION -Botar servicio ORDS para demostrar INTEROPERABILIDAD
+	
+	Levantar SERVICIOS 
+	
+	Donde se consumen SERVICIOS (C#) por medio de HTTPCLIENT, Se consume los END POINT RESTFUL alojados en el MIDDLE TIER ORDS
+	por lo cual el resultado de esta llamada se manda a un CONTROLADOR
+
+			
+	Catalogo Productos
+		Filtros (Categoria, Nombre)
+	
+	Catalogo de Servicios
+	Generar Pedido
+	Menu Solicitados (Comprobar ESTADO del pedido)
+		Cambiar STATUS del PEDIDO
+		CANCELAR Pedido
+	
+	
+	Preguntas
+	Que es MVC?
+	Que es RESTFUL?
+	Diferencia entre RESTFUL y SOAP?
+	Ventajas de RESTFUL
+	Definir INTEROPERABILIDAD
+	Que es BACK-END, FRONT-END Y MIDDLE TIER?
+		
+	
+	
+	
+	
+	
